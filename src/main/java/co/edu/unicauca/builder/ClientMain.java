@@ -30,17 +30,4 @@ public class ClientMain {
         
     }
 
-  /*  Cocina cocina = new Cocina();
- PizzaBuilder hawai_pizzabuilder = new HawaiPizzaBuilder();
- cocina.setPizzaBuilder(hawai_pizzabuilder);
- cocina.construirPizza();
- Pizza pizza = cocina.getPizza();
- Console.WriteLine("Pizza:" + pizza);
- PizzaBuilder picante_pizzabuilder = new PicantePizzaBuilder();
- cocina.setPizzaBuilder(picante_pizzabuilder);
- cocina.construirPizza();
- pizza = cocina.getPizza();
- Console.WriteLine("Pizza:" + pizza);
- Console.ReadKey();*/
-
 }

@@ -8,12 +8,12 @@ public class ItalianDishBuilder extends DishBuilder {
 
     @Override
     public void setCore() {
-        this.setDish(new ItalianDish(" Arroz Italiano", " Arroz a la italiana , añadiendo ingredientes donde se concentra los aromas y sabores de la comida italiana como el arroz carnaroli, las verduras y la Mozzarella", "", 73000, EnumSize.ALL, "Italia"));
+        this.setDish(new ItalianDish("Arroz Italiano", " Arroz a la italiana , añadiendo ingredientes donde se concentra los aromas y sabores de la comida italiana como el arroz carnaroli, las verduras y la Mozzarella", "", 73000, EnumSize.ALL, "Italia"));
     }
 
     @Override
     public void addParts() {
-        this.getDish().addPart(new Dish(" Bruschettas", " Bruschettas como entrada", "", 6500, EnumSize.ALL));
+        this.getDish().addPart(new Dish("Bruschettas", " Bruschettas como entrada", "", 6500, EnumSize.ALL));
         this.getDish().addPart(new Dish("Vino", "Tommasi Amarone", "", 9000, EnumSize.HALF));
 
     }
